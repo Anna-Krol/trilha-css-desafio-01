@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Sarala:wght@400;700&display=swap');
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+p{
+    color: white;
+}
+
+header{
+    height: 600px;
+    padding: 56px;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
+    background-size: cover ;
+    border-bottom: 1px solid #33A8DB
+}
+
+.logo{
+    height: 218px;
+    width: 248px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-content h1{
+    font-family: Raleway;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%); 
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+
+.banner-content p{
+    color: white;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.48px;
+    text-align: center;
+    margin: auto;
+    width: 510px;
+}
+
+.banner-content button{
+    width: 326px;
+    height: 57px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18.78px;
+    letter-spacing: 0.21em;
+    text-align: center;
+    padding: 16px 32px;
+    margin-top: 16px;
+    color: #31A8DD ;
+    background: transparent;
+    border-image: linear-gradient(#3BA1CD, #1572B7);
+    border-image-slice: 10;
+}
+
+main{
+    margin-top: 118px;
+    text-align: center;
+}
+
+#course-content h2{
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%); 
+    -webkit-background-clip: text; 
+    color: transparent;
+}
+
+#course-content p{
+    width: 792px;
+    height: 38px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    margin: auto;
+    text-align: center;
+}
+
+.modules-list{
+    margin-bottom: 90px;
+    background-size: cover ;
+    
+}
+
+.module{
+    width: 535px;
+    padding: 16px;
+    background-color: #252525;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: white;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+}
+
+.module span{
+    color: #33A8DB;
+}
+
+#transform-world{
+    background-image: url(../images/woman-code.png);
+    height: 363px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background-size: cover ;
+    border-bottom: 1px solid #33A8DB;
+    border-top: 1px solid #33A8DB;
+}
+
+#transform-world p{
+    width: 244px;
+    height: 141px;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46.96px;
+    text-align: left;
+    text-transform: lowercase;
+    text-shadow: 3px 2px 0px #33A8DB;
+    margin-left: 60px;
+}
+
+#professional-challenges{
+    margin-top: 100px;
+    background-size: cover ;
+    border-bottom: 1px solid #33A8DB
+}
+
+#professional-challenges h2{
+    width: 746px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%); 
+    -webkit-background-clip: text; 
+    color: transparent;
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    margin: auto;
+}
+
+#professional-challenges p{
+    width: 792px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+footer{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2));
+    text-align: center;
+}
+
+.dio-logo {
+    width: 310px;
+    height: 44px;
+    margin: auto;
+    margin-top: 59px;
+}
+
+footer p{
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #33A8DB;
+}
